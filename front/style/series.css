@@ -1,0 +1,173 @@
+#sec1 {
+  width: 1200px;
+  height: auto;
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(9, 0, 0, 0.712));
+  overflow: hidden;
+  box-shadow: none;
+}
+.card {
+  width: 320px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  overflow: hidden;
+  margin-bottom: 25px;
+  transition: 1s;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: #03f4fc 0px 0px 25px 0px;
+  background-color: black;
+}
+.card h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.card img {
+  width: 320px;
+  height: 300px;
+}
+.card p {
+  padding: 10px 0;
+}
+.card a:hover {
+  background-color: #053b50;
+}
+/*? RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */
+/*? RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */
+/*? RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */
+/*? RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */
+/*? RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */
+/*? RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */
+
+@media all and (min-width: 768px) and (max-width: 1300px) {
+  #sec1 {
+    width: 760px;
+    height: auto;
+  }
+
+  .card {
+    width: 260px !important;
+    height: 450px;
+    color: white;
+    margin-bottom: 20px;
+    box-shadow: none;
+  }
+  .card h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: none;
+  }
+  .card img {
+    width: 260px;
+    height: 250px;
+  }
+  .card p {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+}
+@media all and (max-width: 599px) {
+  #cabecera {
+    width: 99%;
+    height: auto;
+  }
+  .logo {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .menuCel {
+    display: inline-block;
+    position: relative;
+  }
+  .container2 {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .container2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+  }
+
+  .container2 a:hover {
+    background-color: #053b50;
+    color: white;
+  }
+
+  .menuCel:hover .container2 {
+    display: block;
+  }
+
+  .menuCel:hover .boton {
+    background-color: #f0edcf;
+  }
+
+  /* section 1 */
+  /* section 1 */
+  /* section 1 */
+  /* section 1 */
+  /* section 1 */
+  /* section 1 */
+  /* section 1 */
+
+  #sec1 {
+    width: 99%;
+    height: auto;
+    overflow: hidden;
+    border-radius: none;
+    box-shadow: none;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+  .caja-title {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 0px;
+    text-align: center;
+  }
+  .caja-title h1 {
+    font-size: 25px;
+  }
+  .caja-title p {
+    font-size: 15px;
+  }
+
+  /* tarjetaaaas */
+  /* tarjetaaaas */
+  /* tarjetaaaas */
+  /* tarjetaaaas */
+
+  .card {
+    width: 250px !important;
+    height: 450px;
+    color: white;
+    margin-bottom: 20px;
+    box-shadow: none;
+  }
+  .card h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: none;
+  }
+  .card img {
+    width: 250px;
+    height: 250px;
+  }
+  .card p {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+}

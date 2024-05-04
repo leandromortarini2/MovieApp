@@ -1,0 +1,276 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#sec1 {
+  overflow: auto;
+}
+.tarjetaInfo1,
+.tarjetaInfo2,
+.tarjetaInfo3,
+.tarjetaInfo4 {
+  width: 900px;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #053b5099;
+  display: flex;
+  transition: 1.5s;
+}
+.tarjetaInfo1.tarjetaInfo1:hover,
+.tarjetaInfo2:hover,
+.tarjetaInfo3:hover,
+.tarjetaInfo4:hover {
+  transform: scale(1.05);
+  box-shadow: #03f4fc 0px 0px 25px 0px;
+  background-color: #053b50;
+}
+
+.contenido {
+  width: 600px;
+  height: 300px;
+}
+
+.title {
+  color: rgba(255, 255, 255, 0.59);
+  text-transform: uppercase;
+  font-size: 25px;
+  font-style: italic;
+  text-align: start;
+  padding: 10px;
+  letter-spacing: 3px;
+}
+.caja-parrafo {
+  width: 500px;
+  position: relative;
+  left: 50px;
+}
+.pInfo {
+  color: rgba(255, 255, 255, 0.59);
+  text-transform: capitalize;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 2px;
+  padding: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+.tarjetaInfo1 .caja-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(../img/pelis.png);
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+}
+.tarjetaInfo2 .caja-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url(../img/anime.png);
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+}
+
+.tarjetaInfo3 .caja-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(../img/crearPeli.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.img-fluid {
+  width: 300px;
+  height: 300px;
+  background-color: #053b50;
+  box-shadow: #053b50 10px 10px 20px;
+  /* opacity: 0.6; */
+}
+
+@media all and (min-width: 768px) and (max-width: 1300px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #sec1 {
+    overflow: auto;
+  }
+  .tarjetaInfo1,
+  .tarjetaInfo2,
+  .tarjetaInfo3,
+  .tarjetaInfo4 {
+    width: 100%;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: #053b5099;
+    display: flex;
+    transition: 1.5s;
+  }
+  .tarjetaInfo1.tarjetaInfo1:hover,
+  .tarjetaInfo2:hover,
+  .tarjetaInfo3:hover,
+  .tarjetaInfo4:hover {
+    transform: scale(1.05);
+    box-shadow: #03f4fc 0px 0px 15px 0px;
+    background-color: #053b50;
+  }
+
+  .contenido {
+    width: 600px;
+    height: 300px;
+  }
+
+  .title {
+    color: rgba(255, 255, 255, 0.59);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: italic;
+    text-align: start;
+    padding: 10px;
+    letter-spacing: 3px;
+  }
+  .caja-parrafo {
+    width: 500px;
+    position: relative;
+    left: 0px;
+  }
+  .pInfo {
+    color: rgba(255, 255, 255, 0.59);
+    text-transform: lowercase;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-align: left;
+    font-weight: 400;
+  }
+  .tarjetaInfo1 .caja-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url(../img/pelis.png);
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+  }
+  .tarjetaInfo2 .caja-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+      url(../img/anime.png);
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+  }
+
+  .tarjetaInfo3 .caja-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url(../img/crearPeli.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  .img-fluid {
+    width: 300px;
+    height: 300px;
+    background-color: #053b50;
+    box-shadow: #053b50 10px 10px 20px;
+    /* opacity: 0.6; */
+  }
+}
+
+/* celular */ /* celular */
+/* celular */ /* celular */
+/* celular */ /* celular */
+/* celular */ /* celular */
+
+@media all and (max-width: 599px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #sec1 {
+    overflow: auto;
+  }
+  .tarjetaInfo1,
+  .tarjetaInfo2,
+  .tarjetaInfo3,
+  .tarjetaInfo4 {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #053b5099;
+    display: flex;
+    flex-direction: column;
+    transition: 1.5s;
+  }
+  .tarjetaInfo1.tarjetaInfo1:hover,
+  .tarjetaInfo2:hover,
+  .tarjetaInfo3:hover,
+  .tarjetaInfo4:hover {
+    transform: scale(1.05);
+    box-shadow: #03f4fc 0px 0px 15px 0px;
+    background-color: #053b50;
+  }
+
+  .contenido {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    padding: 3px;
+    letter-spacing: 3px;
+  }
+  .caja-parrafo {
+    width: 100%;
+    position: relative;
+    left: 0px;
+  }
+  .pInfo {
+    color: rgba(255, 255, 255, 0.59);
+    text-transform: lowercase;
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding: 5px;
+    text-align: left;
+    font-weight: 400;
+  }
+  .tarjetaInfo1 .caja-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url(../img/pelis.png);
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+  }
+  .tarjetaInfo2 .caja-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+      url(../img/anime.png);
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+  }
+
+  .tarjetaInfo3 .caja-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url(../img/crearPeli.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  .img-fluid {
+    width: 300px;
+    height: 300px;
+    background-color: #053b50;
+    box-shadow: #053b50 10px 10px 20px;
+    /* opacity: 0.6; */
+  }
+}
